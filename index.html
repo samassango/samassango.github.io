@@ -1,358 +1,848 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-  <title>Home</title>
-  <meta charset="utf-8">
-  <meta name="format-detection" content="telephone=no" />
-  <link rel="icon" href="images/favicon.ico">
-  <link rel="shortcut icon" href="images/favicon.ico" />
-  <link rel="stylesheet" href="css/camera.css">
-  <link rel="stylesheet" href="css/component.css" />
-  <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery-migrate-1.2.1.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/superfish.js"></script>
-  <script src="js/jquery.ui.totop.js"></script>
-  <script src="js/jquery.equalheights.js"></script>
-  <script src="js/jquery.mobilemenu.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.tooltipster.js"></script>
-  <script src="js/camera.js"></script>
-  <!--[if (gt IE 9)|!(IE)]><!-->
-  <script src="js/jquery.mobile.customized.min.js"></script>
-  <!--<![endif]-->
-  <script src="js/modernizr.custom.js"></script>
-  <script>
-    $(document).ready(function () {
-      jQuery('#camera_wrap').camera({
-        loader: 'pie',
-        pagination: true,
-        minHeight: '200',
-        thumbnails: true,
-        height: '40.85106382978723%',
-        caption: true,
-        navigation: true,
-        fx: 'mosaic'
-      });
-      $().UItoTop({ easingType: 'easeOutQuart' });
-      $('.tooltip').tooltipster();
 
-    });
-  </script>
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>samassango</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 </head>
 
-<body class="page1" id="top">
 
-  <!--==============================header=================================-->
-  <header>
-    <div class="container_12">
-      <div class="grid_12">
-        <h1>
-          <a href="index.html">
-            <img src="images/gh-logo.png" alt="Your Happy Family">
-          </a>
-        </h1>
-        <div class="menu_block ">
-          <nav class="horizontal-nav full-width horizontalNav-notprocessed">
-            <ul class="sf-menu">
-              <li class="current"><a href="index.html">Home</a></li>
-              <li><a href="index-1.html">Services</a></li>
-              <li><a href="index-2.html">Gallery</a></li>
-              <li><a href="index-3.html">Blog</a></li>
-              <li><a href="index-4.html">Contacts</a></li>
-            </ul>
-          </nav>
-          <div class="clear"></div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="container_12">
-    <div class="grid_12">
-      <div class="slider_wrapper ">
-        <div class="camera_wrap" id="camera_wrap">
-          <div data-thumb="images/slide/1.jpg" data-src="images/slide/1.jpg">
-            <div class="caption fadeFromBottom">
-              Clever interior projects for your home
-            </div>
-          </div>
-          <div data-thumb="images/slide/2.jpg" data-src="images/slide/2.jpg">
-            <div class="caption fadeFromBottom">
-              Home improvement ideas for you
-            </div>
-          </div>
-          <div data-thumb="images/slide/3.jpg" data-src="images/slide/3.jpg">
-            <div class="caption fadeFromBottom">
-              Premium design tips
-            </div>
-          </div>
-          <div data-thumb="images/thumb3.png" data-src="images/slide/4.jpg">
-            <div class="caption fadeFromBottom">
-              Only creative ideas
-            </div>
-          </div>
-          <div data-thumb="images/thumb.png" data-src="images/slide/5.jpg">
-            <div class="caption fadeFromBottom">
-              Clever interior projects for your home
-            </div>
-          </div>
-          <div data-thumb="images/thumb1.jpg" data-src="images/slide/6.jpg">
-            <div class="caption fadeFromBottom">
-              Home improvement ideas for you
-            </div>
-          </div>
-          <div data-thumb="images/thumb2.png" data-src="images/slide/7.jpg">
-            <div class="caption fadeFromBottom">
-              Premium design tips
-            </div>
-          </div>
-          <div data-thumb="images/thumb3.png" data-src="images/slide/8.jpg">
-            <div class="caption fadeFromBottom">
-              Only creative ideas
-            </div>
-          </div>
-          <div data-thumb="images/thumb.png" data-src="images/slide/9.jpg">
-            <div class="caption fadeFromBottom">
-              Clever interior projects for your home
-            </div>
-          </div>
-          <div data-thumb="images/thumb1.jpg" data-src="images/slide/10.jpg">
-            <div class="caption fadeFromBottom">
-              Home improvement ideas for you
-            </div>
-          </div>
-          <div data-thumb="images/thumb2.png" data-src="images/slide/11.jpg">
-            <div class="caption fadeFromBottom">
-              Premium design tips
-            </div>
-          </div>
-          <div data-thumb="images/thumb3.png" data-src="images/slide/12.jpg">
-            <div class="caption fadeFromBottom">
-              Only creative ideas
-            </div>
-          </div>
-          <div data-thumb="images/thumb.png" data-src="images/slide/13.jpg">
-            <div class="caption fadeFromBottom">
-              Clever interior projects for your home
-            </div>
-          </div>
-          <div data-thumb="images/thumb1.jpg" data-src="images/slide/14.jpg">
-            <div class="caption fadeFromBottom">
-              Home improvement ideas for you
-            </div>
-          </div>
-          <div data-thumb="images/thumb2.png" data-src="images/slide/15.jpg">
-            <div class="caption fadeFromBottom">
-              Premium design tips
-            </div>
-          </div>
-          <div data-thumb="images/thumb3.png" data-src="images/slide/16.jpg">
-            <div class="caption fadeFromBottom">
-              Only creative ideas
-            </div>
-          </div>
-          <div data-thumb="images/thumb.png" data-src="images/slide/17.jpg">
-            <div class="caption fadeFromBottom">
-              Clever interior projects for your home
-            </div>
-          </div>
-          <div data-thumb="images/thumb1.jpg" data-src="images/slide/18.jpg">
-            <div class="caption fadeFromBottom">
-              Home improvement ideas for you
-            </div>
-          </div>
-          <div data-thumb="images/thumb2.png" data-src="images/slide/19.jpg">
-            <div class="caption fadeFromBottom">
-              Premium design tips
-            </div>
-          </div>
-          <div data-thumb="images/thumb3.png" data-src="images/slide/20.jpg">
-            <div class="caption fadeFromBottom">
-              Only creative ideas
-            </div>
-          </div>
-          <div data-thumb="images/thumb.png" data-src="images/slide/21.jpg">
-            <div class="caption fadeFromBottom">
-              Clever interior projects for your home
-            </div>
-          </div>
-          <div data-thumb="images/thumb1.jpg" data-src="images/slide/22.jpg">
-            <div class="caption fadeFromBottom">
-              Home improvement ideas for you
-            </div>
-          </div>
-          <div data-thumb="images/thumb2.png" data-src="images/slide/23.jpg">
-            <div class="caption fadeFromBottom">
-              Premium design tips
-            </div>
-          </div>
-          <div data-thumb="images/thumb3.png" data-src="images/slide/24.jpg">
-            <div class="caption fadeFromBottom">
-              Only creative ideas
-            </div>
-          </div>
-          <div data-thumb="images/thumb.png" data-src="images/slide/25.jpg">
-            <div class="caption fadeFromBottom">
-              Clever interior projects for your home
-            </div>
-          </div>
-          <div data-thumb="images/thumb1.jpg" data-src="images/slide/26.jpg">
-            <div class="caption fadeFromBottom">
-              Home improvement ideas for you
-            </div>
-          </div>
-          <div data-thumb="images/thumb2.png" data-src="images/slide/27.jpg">
-            <div class="caption fadeFromBottom">
-              Premium design tips
-            </div>
-          </div>
-          <div data-thumb="images/slide/28.jpg" data-src="images/slide/28.jpg">
-            <div class="caption fadeFromBottom">
-              Only creative ideas
-            </div>
-          </div>
-          <div data-thumb="images/slide/29.jpg" data-src="images/slide/29.jpg">
-            <div class="caption fadeFromBottom">
-              Clever interior projects for your home
-            </div>
-          </div>
-          <div data-thumb="images/slide/30.jpg" data-src="images/slide/30.jpg">
-            <div class="caption fadeFromBottom">
-              Home improvement ideas for you
-            </div>
-          </div>
+<body id="top">
 
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="page1_block">
-    <div class="container_12">
-      <div class="grid_12">
-        <div class="center">
-          <h2>Welcome!</h2>
-          Our Guest house offers you the best experience and you are rest asured that your holiday will be amazing.
-          <div class="alright">
-            <a href="#" class="btn">More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--==============================Content=================================-->
-  <div class="content">
-    <div class="ic">More Website Templates - March 10, 2014!</div>
-    <div class="container_12">
-      <div class="grid_12 center">
-        <h3>Featured Works</h3>
-        <section class="tt-grid-wrapper">
-          <ul class="tt-grid tt-effect-stackback tt-effect-delay">
+	<!-- header 
+   ================================================== -->
+	<header>
 
-            <li><a href="#"><img src="images/works/work-1.jpg" alt="img01"></a></li>
-            <li><a href="#"><img src="images/works/work-2.jpg" alt="img02"></a></li>
-            <li><a href="#"><img src="images/works/work-3.jpg" alt="img03"></a></li>
-            <li><a href="#"><img src="images/works/work-4.jpg" alt="img04"></a></li>
-            <li><a href="#"><img src="images/works/work-5.jpg" alt="img05"></a></li>
-            <li><a href="#"><img src="images/works/work-6.jpg" alt="img06"></a></li>
-          </ul>
-          <nav>
-            <a class="tt-current"></a><a></a><a></a><a></a>
-          </nav>
-        </section>
-        <div class="clear"></div>
-        <div class="alright">
-          <a href="#" class="btn">More</a>
-        </div>
-      </div>
-    </div>
-    <div class="hor"></div>
-    <div class="container_12">
-      <div class="grid_12 center">
-        <h3>Services</h3>
-      </div>
-      <div class="grid_3">
-        <h4>Articles</h4>
-        <img src="images/works/work-8.jpg" alt="" class="img_inner">
-        Lorem ipsum dolor sit t,tetur adipiscing elit. In molliseri eratttis neque facilisi
-        <div class="alright"><a href="#" class="btn">More</a></div>
-      </div>
-      <div class="grid_3">
-        <h4>Color Analysis</h4>
-        <ul class="list">
-          <li><a href="#">Lorem ipsum dolor sit </a></li>
-          <li><a href="#">Amet,tetur adipiscing elit</a></li>
-          <li><a href="#">In mollis eratttis neque </a></li>
-          <li><a href="#">Facilisis, sit amet ultretr</a></li>
-          <li><a href="#">Icies erat rutrums facilisis</a></li>
-          <li><a href="#">Nulla vel viverra auctoreo</a></li>
-          <li><a href="#">Magna sodales felis, quis</a></li>
-        </ul>
-        <div class="alright"><a href="#" class="btn">More</a></div>
-      </div>
-      <div class="grid_3">
-        <h4>Accessory Installation</h4>
-        <ul class="list">
-          <li><a href="#">Morem ipsum dolor site</a></li>
-          <li><a href="#">Kmet,tetur adipiscing eli</a></li>
-          <li><a href="#">In mollis eratttis nequ </a></li>
-          <li><a href="#">Facilisis, sit amet ultretre</a></li>
-          <li><a href="#">Cies erat rutrums facilis </a></li>
-          <li><a href="#">Kulla vel viverra auctore</a></li>
-          <li><a href="#">Bagna sodales felisquik </a></li>
-        </ul>
-        <div class="alright"><a href="#" class="btn">More</a></div>
-      </div>
-      <div class="grid_3">
-        <h4>Floral Design</h4>
-        <ul class="list">
-          <li><a href="#">Korem ipsum dolor sitilo</a></li>
-          <li><a href="#">Pmet, tetur adipiscing eli</a></li>
-          <li><a href="#">On mollis eratttis nequ </a></li>
-          <li><a href="#">Gacilisis, sit amet ultre</a></li>
-          <li><a href="#">Mcies erat rutrumsu </a></li>
-          <li><a href="#">Vacilisis Nulla vel uivra </a></li>
-          <li><a href="#">Nuctoreo Magna sodale </a></li>
-        </ul>
-        <div class="alright"><a href="#" class="btn">More</a></div>
-      </div>
-    </div>
-  </div>
-  <!--==============================footer=================================-->
-  <footer>
-    <div class="container_12">
+		<div class="header-logo">
+			<a href="index.html">Software Developer</a>
+		</div>
 
-      <div class="grid_12">
-        <div class="socials">
-          <section id="facebook">
-            <a href="#" target="_blank"><span id="fackbook" class="tooltip" title="Link us on Facebook">f</span></a>
-          </section>
-          <section id="twitter">
-            <a href="#" target="_blank"><span id="twitter-default" class="tooltip"
-                title="Follow us on Twitter">t</span></a>
-          </section>
-          <section id="google">
-            <a href="#" target="_blank"><span id="google-default" class="tooltip"
-                title="Follow us on Google Plus">g<span>+</span></span></a>
-          </section>
-          <section id="rss">
-            <a href="#" target="_blank"><span id="rss-default" class="tooltip" title="Follow us on Dribble">d</span></a>
-          </section>
-        </div>
-        <div class="copy">
-          YourHome &copy; 2020 | <a href="#">Privacy Policy</a> <br> Website designed by <a href="#" rel="nofollow"></a>
-        </div>
+		<a id="header-menu-trigger" href="#0">
+			<span class="header-menu-text">Menu</span>
+			<span class="header-menu-icon"></span>
+		</a>
 
-      </div>
-    </div>
-  </footer>
-  <script src="js/classie.js"></script>
+		<nav id="menu-nav-wrap">
 
-  <script src="js/thumbnailGridEffects.js"></script>
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>
+
+			<h3>Software Developer</h3>
+
+			<ul class="nav-list">
+				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#skills" title="">Skills</a></li>
+				<li><a class="smoothscroll" href="#credentials" title="">Experience</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
+				<li><a class="smoothscroll" href="#stats" title="">Stats</a></li>
+				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+			</ul>
+
+			<ul class="header-social-list">
+				<li>
+					<a href="#"><i class="fa fa-facebook-square"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-behance"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-dribbble"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</li>
+			</ul>
+
+		</nav> <!-- end #menu-nav-wrap -->
+
+	</header> <!-- end header -->
+
+
+	<!-- home
+   ================================================== -->
+	<section id="home">
+
+		<div class="overlay"></div>
+		<div class="gradient-overlay"></div>
+
+		<div class="home-content-table">
+
+			<div class="home-content-tablecell">
+				<div class="row">
+					<div class="col-twelve">
+						<div class="home-bottom-text">
+
+							<h3 class="animate-intro">Hello, World.</h3>
+							<h1 class="animate-intro">
+								I am Sibusiso Massango. <br>
+								Fullstack Developer <br>
+								Based in Johannesburg, Midrand.<br>
+								South Africa
+							</h1>
+
+							<ul class="home-section-links">
+								<li class="animate-intro">More <a href="#about" class="smoothscroll">About Me</a></li>
+								<li class="animate-intro">View <a href="#portfolio" class="smoothscroll">My Works</a>
+								</li>
+								<li class="animate-intro">Contact <a href="#contact" class="smoothscroll">By Email</a>
+								</li>
+							</ul>
+
+						</div> <!-- end home-bottom-text -->
+					</div> <!-- end col-twelve -->
+				</div> <!-- end row -->
+			</div> <!-- end home-content-tablecell -->
+		</div> <!-- end home-content-table -->
+
+		<a href="#about" class="scroll-icon smoothscroll">
+			<span class="icon-DownArrow"></span>
+		</a>
+
+	</section> <!-- end home -->
+
+
+	<!-- about
+   ================================================== -->
+	<section id="about">
+
+		<div class="about-profile-bg"></div>
+
+		<div class="about-wrap">
+
+			<div class="about-profile">
+
+				<div class="about-profile-bg"></div>
+
+				<div class="intro">
+					<h3 class="animate-this">About</h3>
+					<h1 class="animate-this">More About Me.</h1>
+
+					<p class="lead animate-this">
+						I am Software Developer at <a href="https://pulego.co.za">Pulego Technologies</a> and also
+						<strong>Available as Freelance Developer</strong>. I am a team player. I am outgoing, dedicated,
+						and open-minded. I get across to people and adjust
+						to changes with ease. I believe that a person should work on developing their professional
+						skills and learning new things all the time.
+					</p>
+				</div>
+
+				<p class="animate-this">
+
+				</p>
+
+				<p class="animate-this"></p>
+
+				<p>
+					<a href="#" class="button full-width animate-this">Contact Me</a>
+					<a href="#" class="button button-primary full-width animate-this">Download CV</a>
+				</p>
+
+			</div> <!-- end about-profile  -->
+
+			<div class="about-services">
+
+				<div class="intro">
+					<h3 class="animate-this">Services</h3>
+					<h1 class="animate-this">What I Do.</h1>
+
+					<p class="lead animate-this">
+					</p>
+				</div>
+
+				<ul class="services">
+					<li class="item-branding animate-this">
+						<div class="icon-wrap">
+							<i class="icon-RegisteredTrademark"></i>
+						</div>
+						<div class="service-item">
+							<h4>Mobile Application Development</h4>
+							<p>Mobile application development is the process to making software for smartphones and
+								digital assistants, most commonly for Android and iOS. The software can be preinstalled
+								on the device, downloaded from a mobile app store or accessed through a mobile web
+								browser
+							</p>
+						</div>
+					</li>
+					<li class="item-photography animate-this">
+						<div class="icon-wrap">
+							<i class="icon-Picture"></i>
+						</div>
+						<div class="service-item">
+							<h4>Web Application Development</h4>
+							<p>A web application is a software application that the user interacts with via a browser.
+								Web applications are growing in popularity because they can be updated and maintained
+								without having to distribute or install software on computers and because of their
+								cross-platform compatibility.
+							</p>
+						</div>
+					</li>
+					<li class="item-webdesign animate-this">
+						<div class="icon-wrap">
+							<i class="icon-HTML"></i>
+						</div>
+						<div class="service-item">
+							<h4>Website Development</h4>
+							<p>During website development I look beyond the visual effect of the website and takes other
+								factors into consideration
+								such as the user-friendliness of the website, ease of maintenance and adhering to the
+								best practices and website development standards
+							</p>
+						</div>
+					</li>
+					<!-- <li class="item-uiux animate-this">
+						<div class="icon-wrap">
+							<i class="icon-Checked"></i>
+						</div>
+						<div class="service-item">
+							<h4>UI/UX Design</h4>
+							<p>I outsource ui/ux design 
+							</p>
+						</div>
+					</li> -->
+				</ul>
+
+			</div> <!-- end about-services  -->
+
+		</div> <!-- end about-wrap  -->
+
+	</section> <!-- end about -->
+
+
+	<!-- about
+   ================================================== -->
+	<section id="skills">
+
+		<div class="overlay"></div>
+		<div class="gradient-overlay"></div>
+
+		<div class="row wide">
+			<div class="col-skills">
+
+				<div class="section-intro">
+					<h3 class="animate-this">Skillset</h3>
+					<h1 class="animate-this">I've Got Some Skills.</h1>
+
+					<p class="animate-this"></p>
+				</div>
+
+				<ul class="skill-bars">
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>HTML5</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent65"><span>65%</span></div>
+						<strong>CSS3</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>JQuery</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>PHP</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent25"><span>25%</span></div>
+						<strong>Wordpress</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>Angular 2-11</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>JavaScript</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>Typescript</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>React Native</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>Reactjs</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>Flutter</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>Nodejs</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>Mongodb</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>MySQL</strong>
+					</li>
+					<li class="animate-this" data-animate="fadeInRight">
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>Loopback</strong>
+					</li>
+				</ul>
+
+			</div> <!-- end col-six -->
+		</div> <!-- end row wide -->
+
+	</section> <!-- end skills -->
+
+
+	<!-- credentials
+   ================================================== -->
+	<section id="credentials">
+
+		<div class="row narrow section-intro with-bottom-sep">
+			<div class="col-twelve">
+				<h3 class="animate-this">Career and Education</h3>
+				<h1 class="animate-this">More of My Credentials.</h1>
+
+				<p class="lead"></p>
+			</div>
+		</div> <!-- end section-intro -->
+
+		<div class="row wide credentials-content">
+
+			<div class="col-six tab-full left">
+
+				<h2 class="animate-this">Experience</h2>
+
+				<div class="timeline-wrap">
+					<div class="timeline-block animate-this">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<p class="timeframe">February 2020 - Present</p>
+							<h3>Pulego Technologies</h3>
+							<h4>Software Developer</h4>
+						</div>
+						<div class="timeline-desc">
+							<p>Developing with Angular 9, React Native, PHP CodeIgniter
+								And Nodejs using Loopback. Dedicated Server configuration and application deployment
+								such as Azure deployment
+							</p>
+						</div>
+					</div> <!-- end timeline-block -->
+
+					<div class="timeline-block animate-this">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<p class="timeframe">January 2019 – February 2020</p>
+							<h3>4-Sure (101collective)</h3>
+							<h4>Interactive Developer</h4>
+						</div>
+						<div class="timeline-desc">
+							<p>Developing with React and Angular 6 depending on the project which needs more attention,
+								which also has tight deadlines.
+								Writing unit tests using jest and functional tests with cypress.
+							</p>
+						</div>
+					</div> <!-- end timeline-block -->
+
+					<div class="timeline-block animate-this">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<p class="timeframe">July 2014 - June 2015</p>
+							<h3>Pulego Communication</h3>
+							<h4>Software Developer</h4>
+						</div>
+						<div class="timeline-desc">
+							<p>Creating React native application and Angular web development. Analyse and design new
+								features. Designing the User Interface experience and adding functionality and writing
+								unit test. Optimization of the current systems. Providing support in the event of
+								application failure. Suggesting improvements to the usage of applications. Ensuring
+								accuracy of inputs and results.</p>
+						</div>
+					</div> <!-- end timeline-block -->
+
+					<div class="timeline-block animate-this">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<p class="timeframe">March 2016 - June 2017</p>
+							<h3>Yookos</h3>
+							<h4>Junior Mobile/Reactjs Developer</h4>
+						</div>
+						<div class="timeline-content">
+							<p>Creating a React web application and maintaining the android application by fixing bug.
+								Designing the user interface and adding functionality. Providing support in the event of
+								application failure. Suggesting improvements to the usage of applications. Developing
+								and testing solutions. Ensuring accuracy of inputs and results. Creating test cases.</p>
+						</div>
+					</div> <!-- end timeline-block -->
+
+					<div class="timeline-block animate-this">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<p class="timeframe">April 2015 - February 2016 </p>
+							<h3>Pulego Communication</h3>
+							<h4>Application Developer</h4>
+						</div>
+						<div class="timeline-content">
+							<p>Working on PHP web application maintenance and bug fix
+								Provider support to the web application users.
+								Developing and testing features
+								Also working in an android app design and development.
+								Develop an interaction between the web and the android app
+							</p>
+						</div>
+					</div> <!-- end timeline-block -->
+
+				</div> <!-- end timeline-wrap -->
+
+			</div> <!-- end col-six -->
+
+			<div class="col-six tab-full right">
+
+				<h2 class="animate-this">Education</h2>
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block animate-this">
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+						<div class="timeline-header">
+							<p class="timeframe">June 2012 - April 2013</p>
+							<h3>Tshwane University of Technology</h3>
+							<h4>National Deploma in Information Technology</h4>
+						</div>
+						<div class="timeline-content">
+							<p>Information Technology specializing in Technical Application. Measure subject was Java
+								programming, System Analysis and Design, System Software, Android programming </p>
+						</div>
+					</div> <!-- end timeline-block -->
+
+					<div class="timeline-block animate-this">
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+						<div class="timeline-header">
+							<p class="timeframe">June 2008 - March 2012</p>
+							<h3>E.J Singwane High School</h3>
+							<h4>NCS Metric Certificate</h4>
+						</div>
+						<div class="timeline-desc">
+							<p>Maths and Science</p>
+						</div>
+					</div> <!-- end timeline-block -->
+
+				</div> <!-- end timeline-wrap -->
+
+			</div> <!-- end col-six -->
+
+		</div> <!-- end row wide -->
+
+	</section> <!-- end credentials -->
+
+
+	<!-- portfolio
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row narrow section-intro with-bottom-sep">
+			<div class="col-twelve">
+				<h3 class="animate-this">Portfolio</h3>
+				<h1 class="animate-this">See My Latest Projects.</h1>
+
+				<p class="lead animate-this">still coming</p>
+			</div>
+		</div> <!-- end row section-intro -->
+
+		<div class="row portfolio-content">
+			<div class="col-twelve">
+				<div id="folio-wrap" class="bricks-wrapper">
+
+					<!-- <div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-skaterboy.jpg"
+							data-sub-html="#01">
+							<a href="#" class="overlay">
+								<img src="images/portfolio/skaterboy.jpg" alt="Skaterboy">
+								<div class="item-text">
+									<span class="folio-types">
+										Web Development
+									</span>
+									<h3 class="folio-title">Skaterboy</h3>
+								</div>
+							</a>
+							<a href="https://www.behance.net/" class='details-link' title="details">
+								<i class="icon-UpRightArrow"></i>
+							</a>
+						</div> 
+						<div id="01" class='hide'>
+							<h4>Skater Boy</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt
+								quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>
+					</div>  -->
+
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-shutterbug.jpg"
+							data-sub-html="#02">
+							<a href="#" class="overlay">
+								<img src="images/portfolio/chats_project.png" alt="letschart">
+								<div class="item-text">
+									<span class="folio-types">
+										Mobile Application Development
+									</span>
+									<h3 class="folio-title">Let's chat</h3>
+								</div>
+							</a>
+							<a href="#" class='details-link' title="details">
+								<i class="icon-UpRightArrow"></i>
+							</a>
+						</div> <!-- end item-wrap -->
+
+						<div id="02" class='hide'>
+							<h4>Let's chat</h4>
+							<p>Let's chat is a two way communication application which aims to protect privacy rights of
+								users by using the end to end encryption Technology . <a
+									href="www.behance.net">Details</a></p>
+						</div>
+					</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-explore.jpg"
+							data-sub-html="#03">
+							<a href="#" class="overlay">
+								<img src="images/portfolio/reporting_project.png" alt="Explore">
+								<div class="item-text">
+									<span class="folio-types">
+										Mobile Application Development
+									</span>
+									<h3 class="folio-title">Incident Reporting App</h3>
+								</div>
+							</a>
+							<a href="#" class='details-link' title="details">
+								<i class="icon-UpRightArrow"></i>
+							</a>
+						</div> <!-- end item-wrap -->
+
+						<div id="03" class='hide'>
+							<h4>Incident Reporting App</h4>
+							<p>Incident Reporting App is a citizen engagement platform. <a
+									href="www.behance.net">Details</a></p>
+						</div>
+					</div> <!-- end folio-item -->
+
+					<!-- <div class="brick folio-item">
+					<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-minimalismo.jpg"
+						data-sub-html="#04">
+						<a href="#" class="overlay">
+							<img src="images/portfolio/minimalismo.jpg" alt="Minimalismo">
+							<div class="item-text">
+								<span class="folio-types">
+									Web Design
+								</span>
+								<h3 class="folio-title">Minimalismo</h3>
+							</div>
+						</a>
+						<a href="#" class='details-link' title="details">
+							<i class="icon-UpRightArrow"></i>
+						</a>
+					</div>
+
+					<div id="04" class='hide'>
+						<h4>Minimalismo</h4>
+						<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt
+							quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+					</div>
+				</div>
+
+				<div class="brick folio-item">
+					<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-bicycle.jpg"
+						data-sub-html="#05">
+						<a href="#" class="overlay">
+							<img src="images/portfolio/bicycle.jpg" alt="Bicycle">
+							<div class="item-text">
+								<span class="folio-types">
+									Branding
+								</span>
+								<h3 class="folio-title">Bicycle</h3>
+							</div>
+						</a>
+						<a href="#" class='details-link' title="details">
+							<i class="icon-UpRightArrow"></i>
+						</a>
+					</div>
+
+					<div id="05" class='hide'>
+						<h4>Bicycle</h4>
+						<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt
+							quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+					</div>
+				</div>
+
+				<div class="brick folio-item">
+					<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-salad.jpg"
+						data-sub-html="#06">
+						<a href="#" class="overlay">
+							<img src="images/portfolio/salad.jpg" alt="Salad">
+							<div class="item-text">
+								<span class="folio-types">
+									Photography
+								</span>
+								<h3 class="folio-title">Salad</h3>
+							</div>
+						</a>
+						<a href="https://www.behance.net/" class='details-link' title="details">
+							<i class="icon-UpRightArrow"></i>
+						</a>
+					</div>
+
+					<div id="06" class='hide'>
+						<h4>Salad</h4>
+						<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt
+							quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+					</div>
+				</div> -->
+
+				</div> <!-- end folio-wrap -->
+			</div> <!-- end twelve -->
+		</div> <!-- end portfolio-content -->
+
+	</section> <!-- end portfolio -->
+
+
+	<!-- stats
+   ================================================== -->
+	<section id="stats">
+
+		<div class="row">
+			<div class="col-twelve">
+				<div class="block-1-4 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+						<div class="icon-part">
+							<i class="icon-Briefcase"></i>
+						</div>
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+						<h3 class="stat-count">10</h3>
+					</div> <!-- end stat -->
+
+					<div class="bgrid stat">
+						<div class="icon-part">
+							<i class="icon-AddressBook"></i>
+						</div>
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+						<h3 class="stat-count">5</h3>
+					</div> <!-- end stat -->
+
+					<div class="bgrid stat">
+						<div class="icon-part">
+							<i class="icon-Diploma1"></i>
+						</div>
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+						<h3 class="stat-count">2</h3>
+					</div> <!-- end stat -->
+
+					<div class="bgrid stat">
+						<div class="icon-part">
+							<i class="icon-Idea"></i>
+						</div>
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+						<h3 class="stat-count">12</h3>
+					</div> <!-- end stat -->
+
+				</div> <!-- end stats-list -->
+			</div> <!-- end col-twelve -->
+		</div> <!-- end row -->
+
+	</section> <!-- end stats -->
+
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="overlay"></div>
+
+		<div class="row narrow section-intro">
+			<div class="col-twelve">
+				<h3 class="animate-this">Contact</h3>
+				<h1 class="animate-this">I'm Available for Freelance Work. Feel Free to Contact Me.</h1>
+
+				<p class="lead animate-this">I do Mobile and Web application development.</p>
+			</div>
+		</div> <!-- end section-intro -->
+
+		<div class="row contact-form">
+			<div class="col-twelve">
+
+				<!-- form -->
+				<form name="contactForm" id="contactForm" method="post">
+
+
+					<div class="form-field animate-this">
+						<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
+							required="">
+					</div>
+					<div class="form-field animate-this">
+						<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
+							required="">
+					</div>
+					<div class="form-field animate-this">
+						<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+					</div>
+					<div class="form-field animate-this">
+						<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50"
+							required=""></textarea>
+					</div>
+
+					<div class="form-field animate-this">
+						<button class="submitform">Submit</button>
+
+						<div id="submit-loader">
+							<div class="text-loader">Sending...</div>
+							<div class="s-loader">
+								<div class="bounce1"></div>
+								<div class="bounce2"></div>
+								<div class="bounce3"></div>
+							</div>
+						</div>
+					</div>
+
+
+				</form> <!-- Form End -->
+
+				<!-- contact-warning -->
+				<div id="message-warning"></div>
+
+				<!-- contact-success -->
+				<div id="message-success">
+					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				</div>
+
+			</div> <!-- end col-twelve -->
+		</div> <!-- end row contact-form -->
+
+		<div class="row contact-info">
+
+			<div class="col-four tab-full">
+				<h5 class="animate-this">Where to find me</h5>
+
+				<p class="animate-this">
+					2569 Bohloko street<br>
+					Midrand, Gauteng, 1685<br>
+					South Africa<br>
+				</p>
+			</div> <!-- end col-four -->
+
+			<div class="col-four tab-full collapse">
+				<h5 class="animate-this">Email Me At</h5>
+
+				<p class="animate-this">
+					samassango@gmail.com<br>
+					<!-- massango23@gmail.com -->
+				</p>
+			</div> <!-- end col-four -->
+
+			<div class="col-four tab-full">
+				<h5 class="animate-this">Call Me At</h5>
+
+				<p class="animate-this">
+					Phone: (+27) 72 963 2594<br>
+					<!-- Mobile: (+27) 72 963 2594<br> -->
+					<!-- Fax: (+27) 00 000 0000 -->
+				</p>
+			</div> <!-- end col-four -->
+
+		</div> <!-- end row contact-info -->
+
+	</section> <!-- end contact -->
+
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+		<div class="row">
+
+			<div class="col-twelve tab-full social">
+				<ul class="footer-social">
+					<li><a href="https://web.facebook.com/sibusiso.amos?_rdc=1&_rdr">Facebook</a></li>
+					<li><a href="https://twitter.com/realmassangosa">Twitter</a></li>
+					<li><a href="https://za.linkedin.com/in/sibusiso-massango-416b1a81">linkedin</a></li>
+					<li><a href="https://www.instagram.com/samassango/?hl=en">Instagram</a></li>
+				</ul>
+			</div>
+
+			<div class="col-twelve tab-full">
+				<div class="copyright">
+					<span>© Copyright Sibusiso 2016.</span>
+				</div>
+			</div>
+
+		</div> <!-- end row -->
+
+		<div id="go-top">
+			<a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-UpArrow"></i></a>
+		</div>
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 
