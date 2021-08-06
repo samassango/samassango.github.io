@@ -83,10 +83,25 @@ BOX CLASSES
 .title h2{ font-size:16px; color:#0090e4;}
 .panel-img{ margin:0 auto; padding:20px 0px 20px 0px; width:260px;}
 .content p{ color:#54657b;}
-.controller .buttons{ background:#0090e4; line-height:30px; text-align:center; float:left;}
+.controller .buttons{ background:#4a4b4d; line-height:30px; text-align:center; float:left;}
 .controller .buttons:hover{ background:#91a3c2; line-height:30px;}
 .controller .buttons a{ text-decoration:none; color:#1c263c;}
 .controller .buttons a:hover{color:#0090e4;}
+.controller .buttons button{ color:#ffffff; background:#91a3c2; line-height:30px; text-align:center; float:left;}
+/* .controller .buttons button:hover{color:#0090e4;} */
+/* .controller .buttons*/
+ .button {
+    background-color: #767e76;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  } 
 /*-------------------------------------------------
 CONTENT CLASSES
 -------------------------------------------------*/
@@ -122,6 +137,8 @@ RIGHT-PANEL CLASSES
 .contact-panel .buttons:hover{ background:#91a3c2; line-height:30px;}
 .contact-panel .buttons a{ text-decoration:none; color:#0090e4;}
 .contact-panel .buttons a:hover{color:#1c263c;}
+.contact-panel .buttons button{ text-decoration:none; color:#0090e4;}
+.contact-panel .buttons button:hover{color:#1c263c;}
 .search{ border-bottom:none; margin-top:20px}
 .search ul li{list-style:none; float:left; border:none;display:block;}
 .libg{background:#91a3c2; width:180px; text-indent:5px;}

@@ -13,6 +13,7 @@
   <link href="css/carousel.css" rel="stylesheet" type="text/css">
 </head>
 
+
 <body>
   <div class="social-wrapper">
     <div class="row">
@@ -128,22 +129,6 @@
                   </li>
                 </ul>
               </div>
-              <!-- <div class="col">
-                <div id="carousel">
-                  <div id="slides">
-                    <ul>
-                      <li><img src="img/team.png" alt="Slide 3" width="500px" height="500px" /></li>
-                      <li><img src="img/car.png" alt="Slide 1" width="500px" height="500px" /></li>
-                      <li><img src="img/dog.png" alt="Slide 2" width="500px" height="500px" /></li>
-                    </ul>
-                    <div class="clear"></div>
-                  </div>
-                  <div class="clear"></div>
-                  <div id="buttons"> <a href="#" id="prev">prev</a> <a href="#" id="next">next</a>
-                    <div class="clear"></div>
-                  </div>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -155,61 +140,30 @@
             <h1>AFRICAN DIAMOND SECURITY</h1>
             <span>We prioritize your Safety</span>
           </div>
-          <div class="form">
-            <ul>
-              <li>
-                <input type="text" class="text-field" placeholder="your name here" />
-              </li>
-              <li>
-                <input name="" type="text" class="text-field" placeholder="your email  here" />
-              </li>
-              <li>
-                <textarea name="" cols="" rows="" class="textarea" placeholder="your message  here">
-</textarea>
-              </li>
-            </ul>
-            <div class="clear"></div>
-          </div>
-          <div class="controller">
-            <div class="buttons">
-              <h2><a href="#">SUBMIT</a></h2>
+          <form action="form.php" method="post">
+            <div class="form">
+              <ul>
+                <li>
+                  <input type="text" name="fullname" class="text-field" placeholder="Enter your name here" />
+                </li>
+                <li>
+                  <input name="email" type="text" class="text-field" placeholder="Enter your email  here" />
+                </li>
+                <li>
+                  <textarea name="message" cols="" rows="" class="textarea" placeholder="Enter your message  here">
+               </textarea>
+                </li>
+              </ul>
+              <div class="clear"></div>
             </div>
-            <div class="clear"></div>
-          </div>
+            <button class="button" type="submit">
+              <h2>SUBMIT</h2>
+            </button>
+          </form>
           <div class="clear"></div>
         </div>
         <div class="clear"></div>
-        <div class="panel martop">
-          <div class="title">
-            <h1>DUIS AT LACUS</h1>
-            <h2>Sed sagittis mi scelerisque</h2>
-          </div>
-          <div class="content">
-            <ul>
-              <li><a href="#">Posuere justo velitet laotinoc us</a></li>
-              <li><a href="#">Donec egestas diam sed odiotio</a></li>
-              <li><a href="#">Integer eu nibh vitae massa kun</a></li>
-              <li><a href="#">Lorem ipsum dolor sit amet, con</a></li>
-            </ul>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-        <div class="contact-panel padding-bottm">
-          <div class="title">
-            <h1>ALIQUAM ADIPIS</h1>
-            <span>Suspendisse ut urna enim</span>
-          </div>
-          <div class="search">
-            <ul>
-              <li class="libg">
-                <input type="text" class="search-filed" value="search here..." />
-              </li>
-              <li><img src="images/search-bt.jpg" alt="" /></li>
-            </ul>
-          </div>
-          <div class="clear"></div>
-        </div>
+
       </div>
       <div class="clear"></div>
     </div>
@@ -233,7 +187,7 @@
           <h1>CONTACT US</h1>
           <h2>Head Office Stand No. 3273, Mshololozi Village<br>White River,<br> 12 40</h2>
           <div class="content">
-            <P><a href="#">mafricandiamond@gmail.com</a> </P>
+            <P><a href="mailto:mafricandiamond@gmail.com">mafricandiamond@gmail.com</a> </P>
             <h3>( +27 76 ) 847 2007</h3>
             <h3>( +27 82 ) 890 6812</h3>
           </div>
