@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skills Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .progress-container {
+            width: 100%;
+            background-color: #f3f3f3;
+        }
+
+        .progress-bar {
+            width: 0;
+            height: 30px;
+            background-color: #4caf50;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+        }
+
+        @keyframes progress {
+            0% { width: 0; }
+            100% { width: 100%; }
+        }
+
+        .progress-bar.animate {
+            animation: progress 2s ease-in-out forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar animate">70%</div>
+    </div>
+    <canvas id="skillsChart" width="200" height="100"></canvas>
+    <script src="skillsChart.js"></script>
+</body>
+</html>
