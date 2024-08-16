@@ -31,3 +31,20 @@ const skillsChart = new Chart(ctx, {
         }
     }
 });
+
+function moveProgressBar() {
+    const progressBar = document.getElementById('progress-bar');
+    let width = 0;
+    const interval = setInterval(() => {
+      if (width >= 100) {
+        clearInterval(interval);
+      } else {
+        width++;
+        progressBar.style.width = width + '%';
+        progressBar.innerHTML = width + '%';
+      }
+    }, 50);
+  }
+  
+  moveProgressBar();
+  

@@ -1,38 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Skills Chart</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Timeline</title>
     <style>
-        .progress-container {
-            width: 100%;
-            background-color: #f3f3f3;
+        .timeline {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
         }
-
-        .progress-bar {
-            width: 0;
-            height: 30px;
-            background-color: #4caf50;
-            text-align: center;
-            line-height: 30px;
-            color: white;
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #ddd;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
         }
-
-        @keyframes progress {
-            0% { width: 0; }
-            100% { width: 100%; }
+        .container {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
         }
-
-        .progress-bar.animate {
-            animation: progress 2s ease-in-out forwards;
+        .left {
+            left: 0;
+        }
+        .right {
+            left: 50%;
+        }
+        .container::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: white;
+            border: 4px solid #FF9F55;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .right::after {
+            left: -16px;
+        }
+        .content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
         }
     </style>
 </head>
 <body>
-    <div class="progress-container">
-        <div class="progress-bar animate">70%</div>
+
+<div class="timeline">
+    <div class="container left">
+        <div class="content">
+            <h2>Job Title 1</h2>
+            <p>Description of job experience 1.</p>
+        </div>
     </div>
-    <canvas id="skillsChart" width="200" height="100"></canvas>
-    <script src="skillsChart.js"></script>
+    <div class="container right">
+        <div class="content">
+            <h2>Job Title 2</h2>
+            <p>Description of job experience 2.</p>
+        </div>
+    </div>
+    <!-- Add more containers as needed -->
+</div>
+
 </body>
 </html>
