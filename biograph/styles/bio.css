@@ -409,8 +409,8 @@ button:hover{
     background-color:  rgba(171, 175, 175, 0.9);;
 }
 .project-img{
-    width: 45vw;
-    height: 45vh;
+    width: 35vw;
+    height: 35vh;
     border-radius: 5px;
 }
 .project-img:hover {
