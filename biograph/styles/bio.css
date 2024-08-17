@@ -86,8 +86,11 @@ img:hover {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
+    color: #fff;
 }
-
+.profile h1 h4{
+    font-size: xx-large;
+}
 .footer {
     display: flex;
     justify-content: center;
@@ -111,12 +114,14 @@ img:hover {
 
 .info p {
     width: 57vw;
+    color: #fff;
     /* font-size: smaller; */
 }
 
 .info h3 {
     text-align: start;
     width: 57vw;
+    color: #fff;
 }
 
 #skills {
