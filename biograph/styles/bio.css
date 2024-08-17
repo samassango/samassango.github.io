@@ -123,27 +123,37 @@ img:hover {
     width: 57vw;
     color: #fff;
 }
-
+#services{
+    padding-top: 15px;
+    background-image: linear-gradient(to top, #131414 0%, #f0f2f3 100%)
+}
 #skills {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
     background-image: linear-gradient(to top, #131414 0%, #f0f2f3 100%)
 }
 
 #experience{
+    padding-top: 15px;
     background-image: linear-gradient(to top, #131414 0%, #f0f2f3 100%);
 }
 
 #education{
+    padding-top: 15px;
     background-image: linear-gradient(to top, #131414 0%, #f0f2f3 100%);
 }
 
 #projects{
+    padding-top: 15px;
     background-image: linear-gradient(to top, #131414 0%, #f0f2f3 100%);
 }
 
 #contact{
+    padding-top: 15px;
+    background-image: linear-gradient(to top, #131414 0%, #f0f2f3 100%);
+}
+#conatct-info{
+    padding: 20px;
     background-image: linear-gradient(to top, #131414 0%, #f0f2f3 100%);
 }
 
@@ -321,7 +331,7 @@ p{
     padding: 12px;
 }
 
-#education, #experience, #skills, #projects, #contact {
+#education, #experience, #skills, #projects, #contact, #services {
     min-height: 100vh;
 }
 
@@ -398,6 +408,8 @@ button:hover{
 
 .gallery-container{
     display: flex;
+    justify-content: center;
+    align-content: center;
     padding: 20px;
 }
 
@@ -429,4 +441,28 @@ button:hover{
 }
 .gallery-description{
     padding: 15px;
+}
+
+.contact-details-info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    margin-top: 50px;
+}
+.contact-title{
+    font-weight: bold;
 }
