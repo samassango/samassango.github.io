@@ -1,0 +1,327 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    /* Not working this background color */
+    background-image: url("./assets/main-background.png");
+} 
+
+.home-main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    row-gap: 15px;
+}
+
+.home-bio{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-height: 90vh;
+    width: 30vw;
+    row-gap: 20px;
+}
+.home-image{
+    display: flex;
+    justify-content: flex-start;
+    min-height: 90vh;
+}
+.home-image img{
+    width: 40vw;
+    height: 100vh;
+}
+.home-bio label{
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+}
+.home-bio h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #215BBF;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home-bio h5{
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    border: 1px solid #215BBF;
+    color: #215BBF;
+    font-weight: 900;
+    font-size: small;
+    width: 150px;
+    height: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: rgb(201, 191, 191, 0.5);
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(48, 46, 46);
+}
+
+.about-main{
+    display: flex;
+    column-gap: 70px;
+    height: 80vh;
+    width: 80%;
+    row-gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.about-image{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.about-image img{
+    width: 30vw;
+    height: 60vh;
+    background-color: #fff;
+}
+.image-frame{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    border: 5px solid #215BBF;
+    margin-left: 153px;
+    /* z-index: 10; */
+}
+
+.about-image .box-2{
+    margin-top: 146px;
+    margin-left: 60px;
+    width: 27vw;
+    height: 60vh;
+    border: 27px solid #215BBF;
+}
+
+.about-me-info{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.about-me-info label{
+    font-weight: bold;
+    color: #fff;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about-me-info span{
+    width: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #215BBF;
+}
+.about-me-info p{
+    width: 100%;
+    margin-top: 15px;
+    list-style: 20px;
+    margin-bottom: 15px;
+    color: #dfd6d6;
+    font-size: medium;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-me-info .button-container{
+ margin-top: 30px;
+ width: 70%;
+ height: 50px;
+}
+
+
+.button-container .hire-me{
+  background-color: #215BBF;
+  color: #fff;
+  width: 50px;
+  margin-right: 20px;
+  padding: 15px 50px;
+}
+
+.button-container .hire-me:hover{
+    background-color: rgb(201, 191, 191, 0.5);
+}
+.button-container .download-cv{
+    padding: 15px 40px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(31, 29, 29);
+}
+
+.service-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100%;
+}
+.service-info h1{
+    color: #fff;
+    margin-left:50px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.service-info span{
+    width: 60px;
+    margin-left:50px;
+    margin-bottom: 10px;
+    border: 5px solid #215BBF;
+}
+.service-info p{
+    width: 50%;
+    color: #fff;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.service-offfer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(235, 225, 225, 0.5);
+}
+
+.service-container:first-child{
+    background-color: rgba(25, 154, 194, 0.5);
+}
+
+.service-container:nth-child(2){
+    background-color: rgba(59, 132, 226, 0.5);
+}
+
+.service-container:nth-child(3){
+    background-color: rgba(194, 25, 118, 0.5);
+}
+
+.service-container:last-child{
+    background-color: rgba(53, 156, 66, 0.5);
+}
+
+.service-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-icon img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.service-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10px;
+    color: #fff;
+}
+.service-description{
+    color: #fff;
+    font-size: small;
+}
+
+.contact-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color:  rgb(48, 46, 46);
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+    background-color: rgba(224, 216, 216, 0.185);
+    border-radius: 10px;
+}
+
+input{
+    height: 40px;
+    border-radius: 5px;
+}
+
+label{
+    /* color: #fff; */
+    font-weight: 700;
+    font-size: medium;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button:hover{
+    font-weight: 900;
+    background-color: rgba(255, 248, 248, 0.795);
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #fff;
+    column-gap: 50px;
+}

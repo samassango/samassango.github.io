@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibusiso Massango Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section class="main" id="home" style="background-image: url('./assets/main-background.png');">
+        <div class="home-main">
+            <div class="home-bio">
+                <label>Hello.</label>
+                <h1>I'm Sibusiso</h1>
+                <h5>
+                    Freelance web Designer <br />
+                    & Developer
+                </h5>
+                <a href="#contact-me">HIRE ME</a>
+            </div>
+            <div class="home-image">
+                <img src="./assets/me.png" alt="me">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-main">
+            <div class="about-image">
+                <div class="image-frame">
+                    <img src="./assets/me.png" alt="me">
+                </div>
+                <div class="box-2"></div>
+            </div>
+            <div class="about-me-info">
+                <label for="title">About Me</label>
+                <span></span>
+                <p>
+                    I am an experienced software developer with a robust background in designing, coding, and testing
+                    software applications. With a passion for problem-solving and a strong proficiency in multiple
+                    programming languages, I have successfully led numerous projects from inception to deployment. I am
+                    known for my attention to detail and commitment to quality, I thrive in dynamic environments and
+                    consistently deliver innovative solutions that meet client needs. My expertise spans across various
+                    industries, showcasing their versatility and dedication to continuous learning and improvement in
+                    the ever-evolving field of technology.
+                </p>
+                <div class="button-container">
+                    <a class="hire-me" href="#contact-me">HIRE ME</a>
+                    <a class="download-cv" href="./assets/Fullstack-Developer.pdf" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="service-info">
+            <h1>Services</h1>
+            <span></span>
+            <p>I offer comprehensive web design and development services tailored to meet your unique business needs.
+                Whether you're a small startup looking for a sleek, modern website or an established company in need of
+                a full-scale e-commerce platform, I can help bring your vision to life </p>
+            <div class="service-offfer-container">
+                <div class="service-container">
+                    <div class="service-icon"><img src="./assets/web-design.png" alt=""></div>
+                    <div class="service-name">Custom Web Design</div>
+                    <div class="service-description">
+                        <ul>
+                            <li><strong>Responsive Design:</strong> I create visually appealing, user-friendly websites
+                                that look great on all devices, from desktops to smartphones.</li>
+                            <li><strong>UI/UX Design:</strong> Focus on creating intuitive interfaces with seamless user
+                                experiences that align with your brand identity.</li>
+                            <li><strong>Branding Integration:</strong> Your website will be designed to match and
+                                enhance your existing branding, including logo design, color schemes, and typography.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-container">
+                    <div class="service-icon"><img src="./assets/coding.png" alt="web development"></div>
+                    <div class="service-name">Web Development</div>
+                    <div class="service-description">
+                        <ul>
+                            <li><strong>Front-End Development:</strong> Utilizing the latest technologies (HTML5, CSS3,
+                                JavaScript), I build responsive and interactive websites that engage your audience.</li>
+                            <li><strong>Back-End Development:</strong> I develop robust, scalable back-end systems using
+                                technologies like Node.js, PHP, Python, and more, ensuring your website operates
+                                smoothly.</li>
+                            <li><strong>Content Management Systems (CMS):</strong> Expertise in popular CMS platforms
+                                like WordPress, Joomla, and Drupal, enabling you to easily manage your website content.
+                            </li>
+                            <li><strong>E-commerce Solutions:</strong> Develop and integrate secure, user-friendly
+                                e-commerce platforms with features like product catalogs, shopping carts, and payment
+                                gateways.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-container">
+                    <div class="service-icon"><img src="./assets/maintenance.png" alt=""></div>
+                    <div class="service-name">Website Maintenance and Support</div>
+                    <div class="service-description">
+                        <ul>
+                            <li><strong>Regular Updates:</strong> Keep your website up to date with the latest security
+                                patches, features, and design trends.</li>
+                            <li><strong>Technical Support:</strong> Ongoing support for any issues, from troubleshooting
+                                bugs to implementing new features.</li>
+                            <li><strong>Performance Optimization:</strong> Improve website loading times and overall
+                                performance to ensure a smooth user experience.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-container">
+                    <div class="service-icon"><img src="./assets/social-media.png" alt=""></div>
+                    <div class="service-name">SEO and Digital Marketing</div>
+                    <div class="service-description">
+                        <ul>
+                            <li><strong>Search Engine Optimization (SEO):</strong> Implement on-page and off-page SEO
+                                strategies to increase your website's visibility in search engines.</li>
+                            <li><strong>Social Media Integration:</strong> Seamlessly integrate social media platforms
+                                to enhance your online presence.</li>
+                            <li><strong>Analytics and Reporting:</strong> Track and analyze website performance to
+                                inform strategic decisions.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me" id="contact-me">
+        <div class="service-info">
+            <h1>Contact Me</h1>
+            <span></span>
+            <p>Get in touch with me.</p>
+            <div class="contact-form">
+                <form action="mailto:someone@example.com" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div> 
+            <div class="socials">
+                <div class="address">
+                    <label for="title">WHERE TO FIND ME.</label>
+                    <div class="address-value">
+                        BARN OWL CRESCENT<br/>
+                        RIVERSIDE VIEW EXT 35<br/>
+                        FOURWAYS
+                    </div>
+                </div>
+                <div class="contact-no">
+                    <label for="title">Mobile No.</label>
+                    <div class="mobile-value">+27 72 963 2594</div>
+                </div>
+                <div class="email-address">
+                    <label for="title">EMAIL ADDRESS.</label>
+                    <div class="mobile-value">samassango@gmail.com</div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+</body>
+
+</html>
